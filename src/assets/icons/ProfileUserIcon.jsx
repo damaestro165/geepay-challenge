@@ -1,7 +1,7 @@
 import { Icon } from '@chakra-ui/react'
 
 
-const ProfileUserIcon = ({props}) => {
+const ProfileUserIcon = (props) => {
   return (
     <Icon xmlns="http://www.w3.org/2000/svg" {...props} viewBox="0 0 24 24" fill="none">
 <path d="M12.6801 3.96C13.1601 4.67 13.4401 5.52 13.4401 6.44C13.4301 8.84 11.5401 10.79 9.16006 10.87C9.06006 10.86 8.94006 10.86 8.83006 10.87C6.45006 10.79 4.56006 8.84 4.56006 6.44C4.56006 3.99 6.54006 2 9.00006 2" stroke="#B2ABAB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>

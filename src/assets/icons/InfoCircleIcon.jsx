@@ -1,7 +1,7 @@
 import { Icon } from '@chakra-ui/react'
 
 
-const InfoCircleIcon = ({props}) => {
+const InfoCircleIcon = (props) => {
   return (
     <Icon xmlns="http://www.w3.org/2000/svg" {...props} viewBox="0 0 24 24" fill="none">
         <path d="M12 8V13" stroke="#B2ABAB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>

@@ -17,7 +17,7 @@ const ToggleIcon = isMenuOpen? 'CloseIcon' : 'HamburgerIcon ';
         {isMenuOpen ? (<CloseIcon />):(<HamburgerIcon   />)}
       </Box>
       {isMenuOpen && (
-        <Box className='absolute top-14 left-0'>
+        <Box className='absolute top-14 left-0 z-50'>
             <SideBar/>
         </Box>
         

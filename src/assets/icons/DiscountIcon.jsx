@@ -1,7 +1,7 @@
 import React from 'react'
 import { Icon } from '@chakra-ui/react'
 
-const DiscountIcon = ({props}) => {
+const DiscountIcon = (props) => {
   return (
     <Icon xmlns="http://www.w3.org/2000/svg" {...props} viewBox="0 0 24 24" fill="none">
 <path d="M14.6599 20.01L13.1399 21.53C12.5199 22.15 11.4999 22.15 10.8799 21.53L9.3599 20.01C9.0999 19.75 8.58992 19.54 8.22992 19.54H6.0799C5.1999 19.54 4.47992 18.8199 4.47992 17.9399V15.79C4.47992 15.43 4.26992 14.92 4.00992 14.66L2.4899 13.14C1.8699 12.52 1.8699 11.5 2.4899 10.88L4.00992 9.35999C4.26992 9.09999 4.47992 8.58998 4.47992 8.22998V6.07996C4.47992 5.19996 5.1999 4.47998 6.0799 4.47998" stroke="#B2ABAB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>

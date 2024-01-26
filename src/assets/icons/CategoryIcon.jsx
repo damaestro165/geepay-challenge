@@ -1,7 +1,7 @@
 import React from 'react'
 import { Icon } from '@chakra-ui/react'
 
-const CategoryIcon = ({props}) => {
+const CategoryIcon = (props) => {
   return (
     <Icon xmlns="http://www.w3.org/2000/svg" {...props} viewBox="0 0 24 24" fill="none">
   <g id="vuesax/bulk/category">

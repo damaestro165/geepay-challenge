@@ -1,7 +1,7 @@
 import { Icon } from '@chakra-ui/react'
 
 
-const ArrowRight = ({props}) => {
+const ArrowRight = (props) => {
   return (
     <Icon xmlns="http://www.w3.org/2000/svg" {...props} viewBox="0 0 24 24" fill="none">
   <path d="M8.5 12H14.5" stroke="#B2ABAB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>

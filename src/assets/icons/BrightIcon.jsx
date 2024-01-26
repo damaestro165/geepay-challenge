@@ -1,7 +1,7 @@
 import React from 'react'
 import { Icon } from '@chakra-ui/react'
 
-const BrightIcon = ({props}) => {
+const BrightIcon = (props) => {
   return (
     <Icon xmlns="http://www.w3.org/2000/svg" {...props} viewBox="0 0 30 30" fill="none">
 

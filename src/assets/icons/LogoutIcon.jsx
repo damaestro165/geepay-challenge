@@ -1,7 +1,7 @@
 import { Icon } from '@chakra-ui/react'
 
 
-const LogoutIcon = ({props}) => {
+const LogoutIcon = (props) => {
   return (
     <Icon xmlns="http://www.w3.org/2000/svg" {...props} viewBox="0 0 24 24" fill="none">
  <path d="M6.56 14.5599L4 11.9999L6.56 9.43994" stroke="#B2ABAB" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>

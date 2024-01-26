@@ -1,7 +1,7 @@
 import { Icon } from '@chakra-ui/react'
 
 
-const BoxIcon = ({props}) => {
+const BoxIcon = (props) => {
   return (
     <Icon xmlns="http://www.w3.org/2000/svg" {...props} viewBox="0 0 24 24" fill="none">
   <path d="M3.16992 7.44006L11.9999 12.55L20.7699 7.47003" stroke="#B7B0B0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>

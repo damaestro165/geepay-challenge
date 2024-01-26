@@ -45,7 +45,7 @@ const TopBar = () => {
                     <Text className="text-right text-zinc-800 text-base font-normal">Justin Bergson</Text>
                     <Text className="text-right text-zinc-500 text-sm font-normal"> Justin@gmail.com</Text>
                 </span>
-                <DownIcon boxSize={10} />
+                <DownIcon boxSize={6} />
             </Box>
         </Box>
     </Box>
