@@ -5,7 +5,7 @@ import ResponsiveTopBar from './ResponsiveTopBar'
 
 const LayoutCountainer = ({}) => {
   return (
-    <Box className='w-full'>
+    <Box className='w-full fixed z-50'>
       <TopBar/>
       <ResponsiveTopBar/>
     </Box>

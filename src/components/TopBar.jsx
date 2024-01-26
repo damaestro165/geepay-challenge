@@ -12,10 +12,10 @@ import ProfileImage from '../assets/profile.jpeg'
 
 const TopBar = () => {
   return (
-    <Box className=" hidden w-full lg:flex p-4 border-b border-b-slate-200  bg-neutral-50">
-        <Box className='xl:w-[30%] md:w-[25%] pt-3 flex items-center'><Text className='text-zinc-800 text-xl font-semibold leading-7'>DashBoard</Text></Box>
+    <Box className=" hidden w-full lg:flex p-4 border-b border-b-slate-200 relative bg-neutral-50">
+        <Box className=' md:w-[20%] pt-3 flex items-center'><Text className='text-zinc-800 text-lg font-semibold leading-7'>DashBoard</Text></Box>
         <Box className='flex w-[70%] md:w-[75%] justify-end gap-3  items-center'  >
-         <InputGroup  borderRadius="3xl" w={{ base: "15rem", md: "15rem", xl: "sm" }}  >
+         <InputGroup  borderRadius="3xl" w={{ base: "15rem", md: "15rem", }}  >
               <InputLeftElement pointerEvents="none">
                 <SearchIcon />
               </InputLeftElement>
@@ -26,9 +26,9 @@ const TopBar = () => {
                 borderRadius='inherit'
               />
             </InputGroup>
-            <Box className='flex self-center gap-2'>
+            <Box className='flex items-center gap-1'>
                 <CalenderIcon boxSize={6}/>
-                <Text className="text-zinc-800 text-sm font-medium font-['Inter'] leading-snug">November 15, 2023</Text>
+                <Text className="text-zinc-800 text-sm leading-snug">November 15, 2023</Text>
             </Box>
             <IconButton
                 isRound={true}

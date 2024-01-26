@@ -15,9 +15,9 @@ import DiscountIcon from '../assets/icons/DiscountIcon'
 
 const SideBar = () => {
   return (
-    <Box className=' flex justify-between flex-col w-full '>
-      <VStack className=' justify-between lg:pt-8 pb-4 border-r border-b w-full bg-neutral-50 border-b-zinc-300 border-r-zinc-300 px-2'>
-          <VStack className=' xl:gap-5 justify-evenly xl:mb-[5rem]'>
+    <Box className=' flex justify-between lg:gap-3 xl:gap-6  flex-col w-full relative '>
+      <VStack className=' justify-between lg:pt-8 pb-4 border-r xl:h-screen max-h-screen border-b w-full bg-neutral-50 border-b-zinc-300 border-r-zinc-300 px-2'>
+          <VStack className='justify-evenly xl:h-2/3 xl:mb-[2rem]'>
             <Image
             display={{ base:"none", md:'flex'}}
             boxSize='100px'
@@ -31,8 +31,8 @@ const SideBar = () => {
           <IconButton  
                 backgroundColor='rgb(250 250 250)'
                 aria-label='Nav Button'
-                size='md'
-                icon={  <Icon as={CategoryIcon} boxSize={6} /> } 
+                size='sm'
+                icon={  <Icon as={CategoryIcon} boxSize={5} /> } 
                  _hover={{
                   border: '1px'
                 }}
@@ -42,8 +42,8 @@ const SideBar = () => {
            <IconButton
                 backgroundColor='rgb(250 250 250)'
                 aria-label='Nav Button'
-                size='md'
-                icon={  <Icon as={ProfileUserIcon} boxSize={6} /> }
+               size='sm'
+                icon={  <Icon as={ProfileUserIcon} boxSize={5} /> }
                 _hover={{
                   border: '1px'
                 }}
@@ -51,9 +51,8 @@ const SideBar = () => {
           <IconButton
                 backgroundColor='rgb(250 250 250)'
                 aria-label='Nav Button'
-             
-                size='md'
-                icon={  <Icon as={TrendUpIcon} boxSize={6}  /> }
+                size='sm'
+                icon={  <Icon as={TrendUpIcon} boxSize={5}  /> }
                 _hover={{
                   border: '1px'
                 }}
@@ -61,87 +60,82 @@ const SideBar = () => {
           <IconButton
                 backgroundColor='rgb(250 250 250)'
                 aria-label='Nav Button'
-               
-                size='md'
+               size='sm'
                 _hover={{
                   border: '1px'
                 }}
-                icon={  <Icon as={BoxIcon} boxSize={6}  /> }
+                icon={  <Icon as={BoxIcon} boxSize={5}  /> }
           />
           <IconButton
                 backgroundColor='rgb(250 250 250)'
                 aria-label='Nav Button'
-                
-                size='md'
+                size='sm'
                 _hover={{
                   border: '1px'
                 }}
-                icon={  <Icon as={DiscountIcon}  boxSize={6} /> }
+                icon={  <Icon as={DiscountIcon}  boxSize={5} /> }
           />
           <IconButton
                 backgroundColor='rgb(250 250 250)'
                 aria-label='Nav Button'
-            
-                size='md'
+                size='sm'
                 _hover={{
                   border: '1px'
                 }}
-                icon={  <Icon as={InfoCircleIcon} boxSize={6}  /> }
+                icon={  <Icon as={InfoCircleIcon} boxSize={5}  /> }
           />
           <Box  className="w-[46px] h-[92px] p-2 bg-white rounded-[100px] flex-col justify-start items-center gap-2 inline-flex">
             <IconButton
                backgroundColor='white'
                 aria-label='Nav Button'
-               
-                size='md'
+                 size='sm'
                 _hover={{
                   border: '1px'
                 }}
-                icon={  <Icon as={BrightIcon} boxSize={6}  /> }
+                icon={  <Icon as={BrightIcon} boxSize={5}  /> }
           />
            <IconButton
                 backgroundColor='white'
                 aria-label='Nav Button'
-               
-                size='md'
+               size='sm'
                 _hover={{
                   border: '1px'
                 }}
-                icon={  <Icon as={DarkIcon} boxSize={6} /> }
+                icon={  <Icon as={DarkIcon} boxSize={5} /> }
           />
           </Box>
           
           </VStack>
-          <VStack className='lg:gap-3' >
+          <VStack className='xl:h-1/3' >
             <IconButton
                 backgroundColor='rgb(250 250 250)'
                 aria-label='Nav Button'
                fontSize= {{ md: "20px", xl: '25px' }}
-                size='md'
+                size='sm'
                 _hover={{
                   border: '1px'
                 }}
-                icon={  <Icon as={ArrowRight}  boxSize={6}/> }
+                icon={  <Icon as={ArrowRight}  boxSize={5}/> }
           />
           <IconButton
                 backgroundColor='rgb(250 250 250)'
                 aria-label='Nav Button'
                 fontSize= {{ md: "20px", xl: '25px' }}
-                size='md'
+                size='sm'
                 _hover={{
                   border: '1px'
                 }}
-                icon={  <Icon as={SettingIcon} boxSize={6}/> }
+                icon={  <Icon as={SettingIcon} boxSize={5}/> }
           />
             <IconButton
                 backgroundColor='rgb(250 250 250)'
                 aria-label='Nav Button'
                 fontSize= {{ md: "20px", xl: '25px' }}
-                size='md'
+                size='sm'
                 _hover={{
                   border: '1px'
                 }}
-                icon={  <Icon as={LogoutIcon} boxSize={6} /> }
+                icon={  <Icon as={LogoutIcon} boxSize={5} /> }
           />
         
          </VStack>

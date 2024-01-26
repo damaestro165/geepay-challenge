@@ -17,17 +17,17 @@ export const StatsCardUp = ({title, icon, amount}) => {
             <Image w={20} h={8}   src={TrendsUp} />
          </Box>
          <Box>
-            <Text className="text-zinc-500 text-lg font-medium font-['Plus Jakarta Sans'] leading-relaxed">{title}</Text>
-            <Text className="text-gray-700 text-2xl font-semibold font-['Plus Jakarta Sans'] leading-loose">{amount}</Text>
+            <Text className="text-zinc-500 text-md font-medium  leading-relaxed">{title}</Text>
+            <Text className="text-gray-700 text-lg font-semibold leading-loose">{amount}</Text>
          </Box>
          <Box className=' justify-start items-center gap-2.5 inline-flex'>
             <Box className=" p-2 bg-emerald-400 bg-opacity-10 rounded-full justify-center items-center gap-1 inline-flex"  >
               <StatsUpArrow boxSize={4}/>
-              <Text className="text-emerald-400 text-md font-medium font-['Plus Jakarta Sans'] leading-none">
+              <Text className="text-emerald-400 text-xs font-medium font-['Plus Jakarta Sans'] leading-none">
                      23,5%
               </Text>
             </Box>
-            <Text className="text-zinc-600 text-sm font-normal font-['Inter']">vs. previous month</Text>
+            <Text className="text-zinc-600 text-xs font-normal font-['Inter']">vs. previous month</Text>
          </Box>
 
         </CardBody>
@@ -46,17 +46,17 @@ export const StatsCardUp = ({title, icon, amount}) => {
             <Image w={20} h={8}   src={TrendsDown} />
          </Box>
          <Box>
-            <Text className="text-zinc-500 text-lg font-medium font-['Plus Jakarta Sans'] leading-relaxed">{title}</Text>
-            <Text className="text-gray-700 text-2xl font-semibold font-['Plus Jakarta Sans'] leading-loose">{amount}</Text>
+            <Text className="text-zinc-500 text-md leading-relaxed">{title}</Text>
+            <Text className="text-gray-700 text-lg font-semibold leading-loose">{amount}</Text>
          </Box>
          <Box className=' justify-start items-center gap-2.5 inline-flex'>
             <Box className=" p-2 bg-red-500  bg-opacity-10 rounded-full justify-center items-center gap-1 inline-flex"  >
               <ArrowTrendDown boxSize={4}/>
-              <Text className="text-red-500 text-md font-medium font-['Plus Jakarta Sans'] leading-none">
+              <Text className="text-red-500 text-xs  leading-none">
                      23,5%
               </Text>
             </Box>
-            <Text className="text-zinc-600 text-sm font-normal font-['Inter']">vs. previous month</Text>
+            <Text className="text-zinc-600 text-xs font-normal font-['Inter']">vs. previous month</Text>
          </Box>
 
         </CardBody>
