@@ -17,7 +17,7 @@ const TableComp = () => {
            
     </Box>
   <TableContainer className='bg-white p-4 '>
-  <Table variant='simple' size='sm'>
+  <Table variant='simple' size={{base:'sm' , xl:'sm'}}>
     <Thead >
       <Tr className='text-gray-400 text-base font-medium py-5'>
         <Td>Name</Td>

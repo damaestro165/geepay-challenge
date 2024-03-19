@@ -12,7 +12,7 @@ import ProfileImage from '../assets/profile.jpeg'
 
 const TopBar = () => {
   return (
-    <Box className=" hidden w-full lg:flex p-4 border-b border-b-slate-200 relative bg-neutral-50">
+    <Box className=" hidden w-full lg:flex py-4 px-8 border-b border-b-slate-200 relative bg-neutral-50">
         <Box className=' md:w-[20%] pt-3 flex items-center'><Text className='text-zinc-800 text-lg font-semibold leading-7'>DashBoard</Text></Box>
         <Box className='flex w-[70%] md:w-[75%] justify-end gap-3  items-center'  >
          <InputGroup  borderRadius="3xl" w={{ base: "15rem", md: "15rem", }}  >
@@ -45,7 +45,7 @@ const TopBar = () => {
                     <Text className="text-right text-zinc-800 text-base font-normal">Justin Bergson</Text>
                     <Text className="text-right text-zinc-500 text-sm font-normal"> Justin@gmail.com</Text>
                 </span>
-                <DownIcon boxSize={6} />
+                <DownIcon boxSize={5} />
             </Box>
         </Box>
     </Box>
